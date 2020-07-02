@@ -1,0 +1,10 @@
+en:
+  key:
+    nested_key: nevermind value
+  something:
+    with: value
+  some:
+    dup:
+      in:
+        dir:
+          key: 1

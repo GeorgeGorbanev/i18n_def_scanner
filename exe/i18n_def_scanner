@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require 'i18n_def_scanner'
+
+scanning_params = I18nDefScanner::CliArguments.new(ARGV)
+
+if scanning_params.help?
+  puts I18nDefScanner::HELP
+else
+  scanning = I18nDefScanner::Scanning.new(scanning_params.to_hash)
+  puts scanning.result
+end
