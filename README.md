@@ -1,5 +1,7 @@
 # I18nDefScanner
 
+[![Gem Version](https://badge.fury.io/rb/i18n_def_scanner.svg)](https://badge.fury.io/rb/i18n_def_scanner) [![Build Status](https://travis-ci.com/GeorgeGorbanev/i18n_def_scanner.svg?branch=master)](https://travis-ci.com/GeorgeGorbanev/i18n_def_scanner) [![Coverage Status](https://coveralls.io/repos/github/GeorgeGorbanev/i18n_def_scanner/badge.svg)](https://coveralls.io/github/GeorgeGorbanev/i18n_def_scanner)
+
 I18nDefScanner is a CLI tool that helps to find where i18n translations defined. It accepts yaml key as argument and returns file path with line number where translation defined.
 
 ## Motivation
